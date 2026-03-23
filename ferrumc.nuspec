@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ferrumc</id>
+    <version>0.3.0</version>
+    <packageSourceUrl>https://github.com/Ferrum-Language/Ferrum</packageSourceUrl>
+    <owners>Ferrum-Language</owners>
+    <title>Ferrum-language Compiler</title>
+    <authors>Ferrum-Language</authors>
+    <projectUrl>https://ferrum-language.github.io/Ferrum/</projectUrl>
+    <licenseUrl>https://github.com/Ferrum-Language/Ferrum/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Ferrum-Language/Ferrum</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Ferrum-Language/Ferrum/issues</bugTrackerUrl>
+    <tags>ferrum compiler language systems-programming memory-safety llvm</tags>
+    <summary>Ferrum-language compiler (ferrumc)</summary>
+    <description>
+Ferrum-language is a systems programming language with C syntax and
+compile-time memory safety via a borrow checker and ownership model.
+Compiled to native code through LLVM 18.
+
+Features:
+- Ownership and move semantics
+- Immutable and mutable borrows enforced at compile time
+- Opt-in unsafe blocks
+- C interoperability via #include
+- Zero runtime overhead
+    </description>
+    <releaseNotes>https://github.com/Ferrum-Language/Ferrum/releases/tag/v0.3.0</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
