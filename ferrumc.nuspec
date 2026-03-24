@@ -10,7 +10,7 @@
     <projectUrl>https://ferrum-language.github.io/Ferrum/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/Ferrum-Language/Ferrum/main/docs/ferrum-logo.png</iconUrl>
     <copyright>Copyright 2026 Ferrum-Language</copyright>
-    <licenseUrl>https://github.com/Ferrum-Language/Ferrum/blob/main/LICENSE</licenseUrl>
+    <license type="expression">GPL-3.0-only</license><licenseUrl>https://github.com/Ferrum-Language/Ferrum/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/Ferrum-Language/Ferrum</projectSourceUrl>
     <docsUrl>https://ferrum-language.github.io/Ferrum/</docsUrl>
